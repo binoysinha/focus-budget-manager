@@ -1,0 +1,43 @@
+{
+  "name": "focus-budget-manager",
+  "version": "1.0.0",
+  "description": "Budget Management App built using vue js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binoysinha/focus-budget-manager.git"
+  },
+  "keywords": [
+    "Vue",
+    "Budget"
+  ],
+  "author": "Binoy Sinha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/binoysinha/focus-budget-manager/issues"
+  },
+  "homepage": "https://github.com/binoysinha/focus-budget-manager#readme",
+  "_moduleAliases": {
+    "@root": ".",
+    "@BudgetManager": "./services/BudgetManagerAPI",
+    "@BudgetManagerModels": "./services/BudgetManagerAPI/app/models",
+    "@BudgetManagerAPI": "./services/BudgetManagerAPI/config/app.js",
+    "@config": "./services/BudgetManagerAPI/config/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "consign": "^0.1.6",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "module-alias": "^2.0.3",
+    "mongoose": "^5.0.0-rc1",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.1"
+  }
+}
